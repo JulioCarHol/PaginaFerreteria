@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilosf.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <section class="container">
+        <form id="Formulario">
+        <h1 class="Group">Nuestros Productos</h1>
+        <h4 class="Group">Información y Detalle</h4>
+        <div class="Group" >
+        <label id="prod" for="Producto">Producto</label>
+        </div>
+        <div class="Group" >
+        <input id="precio" class="Group2" type="text" id= "Producto" placeholder="Producto" required>
+        </div>
+        <div class="Group">
+        <label for="Precio">Precio</label>
+        </div>
+        <div class="Group" >
+        <input class="Group2" type="text" id="Precio" placeholder="Precio">
+        </div>
+        <div class="Group">
+        <button id="button1" onclick="mostrarprecio()">Siguiente</button>
+        </div>
+        <div class="Group">
+        <button id="button2" onclick="regresar()">Anterior</button>
+        </div>
+        <div class="Group">
+        <label id="label1">Detalles</label>
+        <p id="stock">Stock:</p>
+        </div>
+        </form>
+        <img id="Imagen1" src="/ImagenesHackaton/bomba_electrica.jpg" alt="bomba">
+    </section>
+    <script src="/script.js"></script>
+</body>
+</html>
