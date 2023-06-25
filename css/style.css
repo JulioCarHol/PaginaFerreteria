@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 
-*,
-::before,
-::after {
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
@@ -319,7 +313,7 @@ p {
 /*Footer*/
 .ftco-section {
   padding: 12em 0;
-  background: url(/img/imgmap.jpg);
+  background-image: url(/img/imgmap.jpeg);
   display: flex;
   justify-content: center;
   background-repeat: no-repeat;
