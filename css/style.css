@@ -188,7 +188,7 @@ button#checkout:hover,button#checkout:focus {
     margin-bottom: 1rem;
     border-radius: 0.75rem;
     background: radial-gradient(circle, rgba(105,210,231,1) 0%, rgba(224,228,204,1) 100%);
-    padding: 15px;
+    padding: 5px;
 
   }  .headercard img {
     opacity: 1;
@@ -246,3 +246,8 @@ button#checkout:hover,button#checkout:focus {
   #imgcard{
     width: 300px;
   }
+
+
+  
+
+  
