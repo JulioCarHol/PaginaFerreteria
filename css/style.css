@@ -322,6 +322,9 @@ p {
   background: url(/img/imgmap.jpg);
   display: flex;
   justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
 }
 
 
